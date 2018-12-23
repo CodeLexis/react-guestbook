@@ -22,6 +22,42 @@
   color: #61dafb;
 }
 
+.header {
+  background-color: rgb(56, 56, 59);
+  color: rgb(230, 230, 230);
+}
+
+.message-author {
+  background-color: navy;
+  color: rgb(230, 230, 230);
+  padding: 3%;
+  text-align: center;
+  font-weight: bold
+}
+
+.message-card {
+  border: 1px solid rgb(175, 171, 171);
+  border-radius: 0 0 .2cm .2cm;
+  margin: 2%;
+  padding: 0
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.message-text {
+  padding: 2%;
+  font: 50;
+}
+
+.message-time {
+  text-align: right;
+  font-size: 10pt;
+  font-weight: bold;
+  color: gray;
+  padding: 0 2% 0 0
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
