@@ -15,30 +15,6 @@ import './App.css';
 let store = configureStore()
 
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <p>
-//             Edit <code>src/App.js</code> and save to reload.
-//           </p>
-//           <a
-//             className="App-link"
-//             href="https://reactjs.org"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Learn React
-//           </a>
-//         </header>
-//       </div>
-//     );
-//   }
-// }
-
-
 class GuestbookApp extends React.Component {
   constructor(props) {
     super(props);
@@ -86,22 +62,6 @@ class GuestbookApp extends React.Component {
         </div>
                 
         <MessageList parent={this} messages={this.state.messages} {...this.props}/>
-
-        {/* <form onSubmit={this.handleSubmit}>
-          <label htmlFor="new-todo">
-            What needs to be done?
-          </label>
-          
-          <input
-            id="new-todo"
-            onChange={this.handleChange}
-            value={this.state.text}
-          />
-
-          <button>
-            Add #{this.state.items.length + 1}
-          </button>
-        </form> */}
 
       </div>
     );
